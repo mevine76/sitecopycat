@@ -1,0 +1,158 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+}
+
+/* header img {
+    padding-left: 300px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+} */
+
+
+.vert-clair {
+    background-color: #87BB33;
+    width: 100%;
+
+} 
+
+.vert-fonce {
+    background-color: #44A33D;
+} 
+
+.btn {
+    background-color: #00A0E0;
+    border-radius: 0px;
+    
+}
+
+.clair {
+
+    font-size: 26px;
+    color: #000;
+}
+
+section h1 {
+    font-family: 'raleway-semibold', sans-serif;
+    font-size: 34px;
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.h12 {
+    color: #000;
+    text-align: center;
+}
+
+.h13 {
+    color: white;
+    text-align: center;
+}
+
+.espacel {
+    line-height: 18px;
+}
+a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #C1C1C1;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #44A33D;
+    padding-left: 3px;
+    
+}
+
+
+.icons {
+    font-size: 1.5rem;
+    color: lightgray;
+}
+
+.color-bar {
+    height: 2rem;
+}
+
+.fil {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.fil a:hover {
+    font-weight: bold;
+    color: #000;
+    
+}
+
+span {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.cardcompte {
+    background-color: white;
+    width: 380px;
+    height: 400px;
+    margin-left: 300px;
+    padding: 15px;
+}
+
+
+.cardcompte a {
+    color:  blue;
+    text-decoration: underline;
+}
+
+.cardcompte1 {
+    color: white;
+    margin-left: 300px;
+}
+
+.creercompte {
+    width: 160px;
+    background-color: #00A0E0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+}
+
+.creercompte1 {
+    background-color: #E3067E;
+    color: white;
+    width: 160px;
+    font-size: 16px;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+}
+.cardcompte1 {
+    background-color: #00A0E0;
+    width: 380px;
+    height: 400px;
+    color: white;
+}
+
+.accessibilite1 {
+    color: white;
+}
+@media screen and (max-width: 1024px) and (min-width) {
+    .vert-clair .vert-fonce {
+        height: 8px;
+    }
+}
